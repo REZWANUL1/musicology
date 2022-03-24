@@ -1,0 +1,353 @@
+/*!NOTE:##########0#########global################## */
+/* !?##############+++++++++++++++################## */
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+ul li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+
+}
+
+a,
+p,
+h2 {
+   color: #fff;
+}
+
+p,
+a {
+   font-size: 1.8125rem;
+
+}
+
+/*!NOTE:##########0#########reuseable################## */
+/* !?##############+++++++++++++++################## */
+
+
+.button {
+   padding: 0.9375rem 4.7rem;
+   background-color: #e8631c;
+   text-align: center;
+   display: inline-block;
+   border-radius: 5px;
+
+}
+
+button {
+   border: none;
+}
+
+.button a {
+   font-size: 29.17px;
+}
+
+.container {
+   max-width: 77.5rem;
+   margin: 0 auto;
+}
+
+.top_text {
+   text-align: center;
+
+}
+
+.top_text p {
+   padding: 0 20px;
+   font-size: 29.75;
+}
+
+.top_text h2 {
+   font-size: 75px;
+}
+
+/*!NOTE:##########0#########header################## */
+/* !?##############+++++++++++++++################## */
+
+
+header {
+   position: absolute;
+   z-index: 999999;
+   top: 0;
+   left: 0;
+   width: 100%;
+
+}
+
+.main_header {
+   background-color: black;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 1em 0 1em 0;
+
+}
+
+.main_header ul li {
+   display: inline-block;
+   font-size: 1.5625rem;
+   padding: 1.875rem;
+}
+
+
+
+/*!NOTE:################### Home section ################## */
+/* !?##################+++++++++++++++##################### */
+
+#home {
+
+   background-image: url("../images/background/home.png");
+   /* width: 100%; */
+   height: 95vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top;
+}
+
+.home_container {
+   /* padding-left: 3%; */
+   width: 32%;
+   margin-left: 5.625rem;
+   height: 100%;
+   /* padding-right:520px ; */
+
+}
+
+.home_container p {
+   line-height: 1.5;
+   letter-spacing: 1.2;
+
+}
+
+.home_content {
+   padding-top: 25rem;
+
+}
+
+.home_content h2 {
+   font-size: 124px;
+}
+
+.home_content .button {
+   margin-top: 40px;
+   border-style: none;
+}
+
+
+/*!NOTE:###################products section################## */
+/* ?##################+++++++++++++++##################### */
+
+#product {
+   background-image: url("../images/background/about.png");
+   height: 105vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center left;
+   overflow: hidden;
+
+}
+
+.product_container>.top_text {
+   padding-top: 105px;
+   padding-bottom: 85px;
+}
+
+.product_container>.cards_container {
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+   text-align: center;
+}
+
+
+.product_container>.cards_container>.card {
+   height: 495px;
+   width: 375px;
+   background-color: black;
+}
+
+.product_container>.cards_container>.card>.card_content {
+   padding: 0 0.523em;
+}
+
+.product_container>.cards_container>.card h3 {
+   font-size: 36px;
+   padding-top: 40px;
+}
+
+.product_container>.cards_container>.card p {
+   font-size: 22.17px;
+   padding-top: 10px;
+}
+
+/*!NOTE:################### price section################## */
+/* ?##################+++++++++++++++##################### */
+
+.price_container {
+   background: #303030;
+   position: relative;
+   overflow: hidden;
+}
+
+.price_content>.top_text p {
+   padding-top: 60px;
+}
+
+.price_content>.top_text h3 {
+   padding-top: 75px;
+}
+
+.price_container>.price_content {
+   padding-top: 105px;
+   padding-bottom: 85px;
+   position: relative;
+
+}
+
+.price_content>.cards_container {
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+   text-align: center;
+   padding-top: 85px;
+   position: relative;
+   z-index: 111;
+}
+
+.price_content>.cards_container>.card {
+   background-color: #e8631c;
+   height: 493px;
+   width: 373px;
+   border-radius: 10px;
+   z-index: 1;
+}
+
+.price_content>.cards_container>.card>.card_img {
+   margin: 50px 0;
+
+}
+
+.price_content>.cards_container>.card>.card_content>h3 {
+   font-size: 36.95px;
+
+}
+
+.price_content>.cards_container>.card>.card_content>p {
+   padding-top: 30px;
+
+}
+
+.price_content>.cards_container>.card>.card_content>.button {
+   background-color: #303030;
+   margin-top: 35px;
+   font-size: 25px;
+
+}
+
+.price_shape {
+   position: absolute;
+   top: -30%;
+   left: -10%;
+}
+
+/*!NOTE:################### promo section################## */
+/* ?##################+++++++++++++++##################### */
+
+.promo_container>.promo_top,
+.promo_bottom {
+   height: 100vh;
+   display: flex;
+   width: 100%;
+
+}
+
+.promo_container .promo_image,
+.promo_content {
+   background-color: #e8631c;
+   width: 50%;
+   position: relative;
+
+}
+
+
+
+
+
+.promo_container .promo_image img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center 30%;
+}
+
+.promo_container .card_content {
+   width: 80%;
+   margin: 30% 10%;
+
+}
+
+.promo_container .card_content a {
+   background-color: black;
+   margin-top: 2.5em;
+
+
+}
+
+.promo_container .card_content h2 {
+   font-size: 75px;
+   font-weight: bold;
+
+}
+
+.promo_container .card_content p {
+   margin-top: 2.5em;
+   font-size: 25px;
+   font-weight: lighter;
+   letter-spacing: 3px;
+   line-height: 1.5;
+   padding-right: 20%;
+
+}
+
+
+
+.middle_shape {
+   position: absolute;
+   top: 42%;
+   right: 2%;
+
+}
+
+.promo_content>.bottom_shape {
+   position: absolute;
+   top: 50%;
+
+}
+
+.promo_content {
+   overflow: hidden;
+}
+
+.promo_content>.card_content {
+   z-index: 11;
+   position: relative;
+
+}
+.top_shape_container{
+   position: relative;
+}
+.promo_container>.top_shape{
+   position: absolute;
+   top:220%;
+   right: 1%;
+   z-index: 1;
+}
