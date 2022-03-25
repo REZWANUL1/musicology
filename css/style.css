@@ -431,7 +431,66 @@ header {
    font-size: 72px;
    margin-top: 50px;
 }
+
 .about_container>.about_bottom p {
    font-size: 50px;
    line-height: 1.2em;
+}
+
+/*!NOTE:################### contact section################## */
+/* ?##################+++++++++++++++##################### */
+
+.contact_container {
+   flex-direction: column;
+   display: flex;
+   justify-content: center;
+   height: 70vh;
+   background-image: url("../images/contact/Design.jpg");
+background-position:center ;
+}
+
+.contact_container .top_text p {
+   margin-top: 50px;
+
+}
+
+.contact_container .top_text h2 {
+   font-size: 75px;
+   font-weight: bold;
+}
+
+.contact_container form {
+   text-align: center;
+   margin-top: 75px;
+
+}
+
+.contact_container input {
+   position: relative;
+   display: inline-block;
+   transition: .5s;
+
+}
+
+.contact_container input[type="email"] {
+   background-color: #ffff;
+   color: #666666;
+   width: 550px;
+   height: 60px;
+   border: none;
+   font-size: 25px;
+   padding-left: 20px;
+   /* font-weight: bold; */
+}
+
+.contact_container input[type="submit"] {
+   background-color: black;
+   color: #fff;
+   border: none;
+   outline: none;
+   padding: 15px 50px;
+   position: relative;
+   left: -3px;
+   font-size: 25px;
+   cursor: pointer;
 }
