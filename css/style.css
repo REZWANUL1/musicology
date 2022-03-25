@@ -58,12 +58,14 @@ button {
 
 .top_text {
    text-align: center;
+   letter-spacing: 2px;
+
 
 }
 
 .top_text p {
    padding: 0 20px;
-   font-size: 29.75;
+   font-size: 29.75px;
 }
 
 .top_text h2 {
@@ -159,6 +161,15 @@ header {
 .product_container>.top_text {
    padding-top: 105px;
    padding-bottom: 85px;
+
+
+}
+
+.product_container>.top_text p {
+   padding-top: 50px;
+
+
+
 }
 
 .product_container>.cards_container {
@@ -342,12 +353,85 @@ header {
    position: relative;
 
 }
-.top_shape_container{
+
+.top_shape_container {
    position: relative;
 }
-.promo_container>.top_shape{
+
+.promo_container>.top_shape {
    position: absolute;
-   top:220%;
+   top: 220%;
    right: 1%;
    z-index: 1;
+}
+
+/*!NOTE:################### about section################## */
+/* ?##################+++++++++++++++##################### */
+.about_top {
+   height: 100vh;
+   background-color: #303030;
+}
+
+.about_top .top_text h2 {
+   padding-top: 200px;
+
+}
+
+.about_top .top_text p {
+   padding-top: 50px;
+}
+
+.about_counter .count {
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   /* margin: 0 12.1rem 0 12.1rem; */
+   margin-top: 180px;
+}
+
+.about_counter .count span::after {
+   content: "+";
+   color: #ffff;
+   position: relative;
+   right: -5%;
+}
+
+/* .about_counter .count>div:nth-child(2) span::after {
+   display:none;
+   
+} */
+
+
+.about_counter .count span {
+   color: #fff;
+   font-size: 66.84px;
+
+}
+
+.about_counter .count p {
+   color: #fff;
+   font-size: 41.67px;
+   padding-top: 35px;
+}
+
+.about_container>.about_bottom {
+   text-align: center;
+   height: 110vh;
+   background:
+      url("../images/about_item/about_background.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center 10%;
+   display: flex;
+
+   align-items: center;
+}
+
+.about_container>.about_bottom h2 {
+   font-size: 72px;
+   margin-top: 50px;
+}
+.about_container>.about_bottom p {
+   font-size: 50px;
+   line-height: 1.2em;
 }
