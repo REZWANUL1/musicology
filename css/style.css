@@ -18,6 +18,16 @@ a {
 
 }
 
+.card_content a,
+.card_content h3,
+nav ul li a h1,
+h2,
+h3,
+a {
+   font-family: 'Oswald',
+      sans-serif;
+}
+
 a,
 p,
 h2 {
@@ -29,9 +39,17 @@ a {
    font-size: 1.8125rem;
 
 }
-a:hover{
+
+a:hover {
    cursor: pointer;
 }
+
+p {
+   font-family: 'Montserrat',
+      sans-serif;
+}
+
+
 /*!NOTE:##########0#########reuseable################## */
 /* !?##############+++++++++++++++################## */
 
@@ -102,7 +120,7 @@ header {
    padding: 1.875rem;
 }
 
-.main_header ul li a:hover{
+.main_header ul li a:hover {
    color: rgb(233, 222, 222);
 
 }
@@ -128,8 +146,8 @@ header {
    height: 100%;
    /* padding-right:520px ; */
    display: flex;
-   justify-content: center;
-   align-items: flex-start;
+   align-items: center;
+
 
 }
 
@@ -140,13 +158,14 @@ header {
 }
 
 .home_content {
-   padding-top: 25rem;
+   margin-top: 15%;
    padding-right: 60%;
 
 }
 
 .home_content h2 {
    font-size: 124px;
+
 }
 
 .home_content .button {
@@ -203,18 +222,20 @@ header {
 
 .product_container>.cards_container>.card .card_img {
    overflow: hidden;
-   height: 75%;
+
    width: 100%;
 
 }
 
 .product_container>.cards_container>.card>.card_content {
    padding: 0 0.523em;
+   padding-top: 20px;
 }
 
 .product_container>.cards_container>.card a {
    font-size: 36px;
    padding-top: 40px;
+
 }
 
 .product_container>.cards_container>.card a:hover {
@@ -239,6 +260,7 @@ header {
    background: #303030;
    position: relative;
    overflow: hidden;
+
 }
 
 .price_content>.top_text p {
@@ -247,6 +269,7 @@ header {
 
 .price_content>.top_text h3 {
    padding-top: 75px;
+   font-weight: 700;
 }
 
 .price_container>.price_content {
@@ -280,10 +303,10 @@ header {
 
 .price_content>.cards_container>.card {
    background-color: #e8631c;
-   height: 493px;
+   height: 505px;
    width: 373px;
    border-radius: 10px;
-   z-index: 1;
+
 }
 
 .price_content>.cards_container>.card>.card_img {
@@ -293,11 +316,13 @@ header {
 
 .price_content>.cards_container>.card>.card_content>h3 {
    font-size: 36.95px;
+   font-weight: 700;
 
 }
 
 .price_content>.cards_container>.card>.card_content>p {
    padding-top: 30px;
+   font-size: 22.17px;
 
 }
 
@@ -378,11 +403,11 @@ header {
 
 .promo_container .card_content p {
    margin-top: 2.5em;
-   font-size: 25px;
+   /* font-size: 25px; */
    font-weight: lighter;
-   letter-spacing: 3px;
+   /* letter-spacing: 3px; */
    line-height: 1.5;
-   padding-right: 20%;
+   padding-right: 10%;
 
 }
 
@@ -579,6 +604,8 @@ footer {
 
 .footer_container .footer_items ul li a {
    font-size: 25px;
+   font-family: 'Montserrat',
+      sans-serif;
 }
 
 .footer_container .footer_items ul li a:hover {
@@ -608,6 +635,10 @@ footer {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+.footer_container .icons>ul li a i:hover {
+   background-color: rgb(215, 215, 250);
 }
 
 .footer_items>.about>ul,
