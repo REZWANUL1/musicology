@@ -45,7 +45,10 @@ p {
    font-family: 'Montserrat',
       sans-serif;
 }
-
+img{
+   max-width: 100%;
+   display: inline-block;
+}
 /*!NOTE:##########0#########reuseable################## */
 /* !?##############+++++++++++++++################## */
 .button {
@@ -175,7 +178,7 @@ header {
 }
 
 .product_container>.top_text {
-   padding-top: 105px;
+   margin-top: 105px;
    padding-bottom: 85px;
 }
 
@@ -236,7 +239,7 @@ header {
 }
 
 .price_content>.top_text p {
-   padding-top: 60px;
+   margin-top: 60px;
 }
 
 .price_content>.top_text h3 {
@@ -245,7 +248,7 @@ header {
 }
 
 .price_container>.price_content {
-   padding-top: 105px;
+   margin-top: 105px;
    padding-bottom: 85px;
    position: relative;
 
@@ -473,11 +476,16 @@ header {
    align-items: center;
 }
 
-.about_container>.about_bottom h2 {
+.about_container>.about_bottom a {
    font-size: 72px;
    margin-top: 50px;
+   font-weight: 700;
+   display: inline-block;
 }
+.about_container>.about_bottom a:hover {
 
+   text-decoration: underline;
+}
 .about_container>.about_bottom p {
    font-size: 50px;
    line-height: 1.2em;
