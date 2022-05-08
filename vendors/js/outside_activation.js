@@ -13,3 +13,4 @@ wow = new WOW({
 	live: true, // default
 });
 wow.init();
+console.log('hi')
