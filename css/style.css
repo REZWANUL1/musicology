@@ -13,6 +13,7 @@ ul li {
 
 a {
    text-decoration: none;
+   cursor: pointer;
 }
 
 .card_content a,
@@ -45,10 +46,12 @@ p {
    font-family: 'Montserrat',
       sans-serif;
 }
-img{
+
+img {
    max-width: 100%;
    display: inline-block;
 }
+
 /*!NOTE:##########0#########reuseable################## */
 /* !?##############+++++++++++++++################## */
 .button {
@@ -76,7 +79,7 @@ button {
 .top_text {
    text-align: center;
    letter-spacing: 2px;
-
+   padding: 60px 80px;
 }
 
 .top_text p {
@@ -84,11 +87,15 @@ button {
    font-size: 29.75px;
 }
 
+
 .top_text h2 {
    font-size: 75px;
+   padding-bottom: 60px;
 }
-.cards_container{
-   display:flex;
+
+.cards_container {
+   display: flex;
+   justify-content: space-between;
 }
 
 /*!NOTE:###################header################## */
@@ -134,11 +141,8 @@ header {
 }
 
 .home_container {
-   /* padding-left: 3%; */
-   /* width: 32%; */
    margin-left: 5.625rem;
    height: 100%;
-   /* padding-right:520px ; */
    display: flex;
    align-items: center;
 }
@@ -149,7 +153,7 @@ header {
 }
 
 .home_content {
-   margin-top: 15%;
+   margin-top: 10%;
    padding-right: 60%;
 }
 
@@ -177,18 +181,14 @@ header {
    overflow: hidden;
 }
 
-.product_container>.top_text {
+/* .product_container>.top_text {
    margin-top: 105px;
    padding-bottom: 85px;
-}
+} */
 
-.product_container>.top_text p {
-   padding-top: 50px;
-}
+
 
 .product_container>.cards_container {
- 
-   justify-content: space-between;
    color: #fff;
    text-align: center;
 }
@@ -232,31 +232,13 @@ header {
 
 /*!NOTE:################### price section################## */
 /* ?##################+++++++++++++++##################### */
-.price_container {
+
+#price {
+   height: 960px;
    background: #303030;
-   position: relative;
    overflow: hidden;
-}
-
-.price_content>.top_text p {
-   margin-top: 60px;
-}
-
-.price_content>.top_text h3 {
-   padding-top: 75px;
-   font-weight: 700;
-}
-
-.price_container>.price_content {
-   margin-top: 105px;
-   padding-bottom: 85px;
    position: relative;
-
-}
-
-.price_container>.price_content a {
-   cursor: pointer;
-
+   
 }
 
 .price_container>.price_content>.cards_container a:hover {
@@ -265,11 +247,10 @@ header {
 }
 
 .price_content>.cards_container {
-  
-   justify-content: space-between;
+   
    color: #fff;
    text-align: center;
-   padding-top: 85px;
+   /* padding-top: 85px; */
    position: relative;
    z-index: 111;
 }
@@ -283,7 +264,7 @@ header {
 }
 
 .price_content>.cards_container>.card>.card_img {
-   margin: 50px 0;
+   padding: 50px 0;
 
 }
 
@@ -423,14 +404,7 @@ header {
    background-color: #303030;
 }
 
-.about_top .top_text h2 {
-   padding-top: 200px;
 
-}
-
-.about_top .top_text p {
-   padding-top: 50px;
-}
 
 .about_counter .count {
    display: flex;
@@ -472,7 +446,6 @@ header {
    background-size: cover;
    background-position: center 15%;
    display: flex;
-
    align-items: center;
 }
 
@@ -482,10 +455,11 @@ header {
    font-weight: 700;
    display: inline-block;
 }
-.about_container>.about_bottom a:hover {
 
+.about_container>.about_bottom a:hover {
    text-decoration: underline;
 }
+
 .about_container>.about_bottom p {
    font-size: 50px;
    line-height: 1.2em;
@@ -503,12 +477,10 @@ header {
    background-position: center;
 }
 
-.contact_container .top_text p {
-   margin-top: 50px;
-}
+
 
 .contact_container .top_text h2 {
-   font-size: 75px;
+
    font-weight: bold;
 }
 
@@ -557,7 +529,7 @@ footer {
 .footer_container>.footer_items {
    display: flex;
    justify-content: space-around;
-   /* align-items: center; */
+
    padding-top: 115px;
 }
 
@@ -595,9 +567,7 @@ footer {
 .footer_container .icons>ul li a i {
    color: black;
    background-color: #fff;
-   /* margin-right: 15px; */
    border-radius: 50%;
-   /* padding: 15px; */
    width: 50px;
    height: 50px;
    display: flex;
