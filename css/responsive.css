@@ -697,10 +697,7 @@
 
    }
 
-   .price_content>.cards_container>.card>.card_content>.button {
-      margin-top: 30px;
 
-   }
 
    .promo_container>.promo_top,
    .promo_bottom {
@@ -890,8 +887,19 @@
       font-size: 12px;
    }
 
+   .home_content .button {
+      margin-top: 20px;
+   }
+
    .promo_container>.promo_top,
    .promo_bottom {
       height: 350px;
    }
+
+   .promo_container .card_content a {
+      margin-top: .5em;
+
+   }
+
+
 }
