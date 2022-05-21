@@ -900,8 +900,8 @@
       margin-top: .5em;
 
    }
-.product_container>.cards_container>.card a
-{
-   /* padding-top: 20px; */
-}
+
+   .product_container>.cards_container>.card a {
+      padding-top: 10px;
+   }
 }
