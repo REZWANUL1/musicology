@@ -171,7 +171,7 @@
 
    .product_container>.cards_container>.card a {
       font-size: 30px;
-      padding-top: 40px;
+      padding-top: 35px;
 
    }
 
@@ -247,7 +247,7 @@
 
    .product_container>.cards_container>.card a {
       font-size: 25px;
-      padding-top: 40px;
+      padding-top: 30px;
 
    }
 
@@ -884,7 +884,7 @@
 @media (max-width:450px) {
    .top_text p {
       padding: 0px;
-      font-size: 12px;
+      font-size: 10px;
    }
 
    .home_content .button {
@@ -900,6 +900,8 @@
       margin-top: .5em;
 
    }
-
-
+.product_container>.cards_container>.card a
+{
+   /* padding-top: 20px; */
+}
 }
