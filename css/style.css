@@ -101,7 +101,7 @@ button {
 /*!NOTE:###################header################## */
 /* !?##############+++++++++++++++################## */
 header {
-   position:fixed;
+   position: fixed;
    z-index: 999999;
    top: 0;
    left: 0;
@@ -122,22 +122,23 @@ header {
 .main_header nav ul li {
    display: inline-block;
    font-size: 1.5625rem;
-   padding:0 1.875rem;
+   padding: 0 1.875rem;
    text-align: center;
-   
+
 }
 
 .main_header ul li a:hover {
    color: rgb(233, 222, 222);
-  
+
 }
 
 .main_header ul>.active {
-   border-bottom: 2px solid #e8631c ;
+   border-bottom: 2px solid #e8631c;
    transition: smooth;
    border-radius: 5%;
 
 }
+
 .top_nav nav {
    position: fixed;
    width: 100%;
@@ -304,6 +305,7 @@ header {
    position: absolute;
    top: -30%;
    left: -10%;
+
 }
 
 /*!NOTE:################### promo section################## */
@@ -355,7 +357,6 @@ header {
    background-color: black;
    margin-top: 2.5em;
 
-
 }
 
 .promo_container .card_content h2 {
@@ -404,6 +405,7 @@ header {
 }
 
 .promo_container>.top_shape {
+   display: none;
    position: absolute;
    top: 220%;
    right: 1%;
@@ -434,10 +436,7 @@ header {
    right: -5%;
 }
 
-/* .about_counter .count>div:nth-child(2) span::after {
-   display:none;
-   
-} */
+
 .about_counter .count span {
    color: #fff;
    font-size: 66.84px;
@@ -535,14 +534,15 @@ header {
 /* ?##################+++++++++++++++##################### */
 footer {
    background-color: #333333;
-  height: 56vh;
-   
+   height: 45vh;
+
 }
 
 .footer_container>.footer_items {
    display: flex;
    justify-content: space-around;
    padding-top: 5%;
+
 }
 
 .footer_container>.footer_items h2 {
@@ -591,8 +591,9 @@ footer {
 .footer_container .icons>ul li a i:hover {
    background-color: #e8631c;
    text-align: center;
-   transform: rotate(360deg) scale(1.1);
+   transform: rotate(360deg);
    transition: 0.9s linear;
+   
 }
 
 .footer_items>.about>ul,

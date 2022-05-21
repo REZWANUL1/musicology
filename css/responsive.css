@@ -25,6 +25,10 @@
    .promo_container .card_content p {
       padding-right: 10%;
    }
+
+   .price_shape {
+      width: 800px;
+   }
 }
 
 @media (max-width:1400px) {
@@ -90,6 +94,10 @@
       padding-right: 5%;
    }
 
+   .price_shape {
+      width: 700px;
+   }
+
    .footer_container>.footer_items .social {
       width: 38%;
 
@@ -137,7 +145,10 @@
    .price_content>.cards_container>.card>.card_content>p {
       padding-top: 18px;
       font-size: 20px;
+   }
 
+   .price_shape {
+      width: 600px;
    }
 
    .product_container>.cards_container>.card {
@@ -147,12 +158,10 @@
    }
 
    .cards_container {
-
       justify-content: space-around;
    }
 
    .product_container>.cards_container>.card p {
-
       padding-top: 2px;
    }
 
@@ -176,24 +185,21 @@
 
    .price_content>.cards_container>.card>.card_img {
       padding: 30px 0;
-
    }
 
    .about_container>.about_bottom {
-
       height: 850px;
-
    }
 
    .about_container>.about_bottom a {
       font-size: 52px;
-
    }
 
    .about_container>.about_bottom p {
       font-size: 30px;
-
    }
+
+
 
 }
 
@@ -253,6 +259,12 @@
 
    }
 
+   .price_shape {
+      width: 500px;
+
+   }
+
+
    .top_text p {
       font-size: 25px
    }
@@ -265,8 +277,6 @@
    .promo_container>.promo_top,
    .promo_bottom {
       height: 650px;
-      display: flex;
-      width: 100%;
 
    }
 
@@ -326,6 +336,7 @@
    .footer_items>.service>ul li a,
    .footer_items>.other>ul li a {
       font-size: 20px;
+
    }
 }
 
@@ -399,8 +410,8 @@
    .promo_container .card_content h2 {
       font-size: 45px;
 
-
    }
+
 }
 
 @media (max-width:1019px) {
@@ -456,6 +467,11 @@
 }
 
 @media (max-width:914px) {
+   .main_header {
+      height: 8vh;
+
+
+   }
 
    p,
    a {
@@ -530,11 +546,6 @@
 
    }
 
-   /* .footer_container .footer_items p,
-   .about ul li a {
-      font-size: 18px;
-
-   } */
 }
 
 @media (max-width:850px) {
@@ -585,7 +596,7 @@
    }
 
    .about_container>.about_bottom p {
-      font-size: 25px;
+      font-size: 15px;
 
    }
 
@@ -594,9 +605,10 @@
    }
 
    .footer_container>.footer_items .social>.icons ul li {
-      margin-top: 5%;
+      margin-top: 2%;
    }
 
+   .footer_container>.footer_items p,
    .footer_items>.about>ul,
    .service>ul,
    .other>ul {
@@ -612,24 +624,51 @@
    }
 
    footer {
-      height: 45vh;
+      background-color: #333333;
+      height: 25vh;
+
    }
 }
 
 
-/* .footer_container>.footer_items {
 
-      padding-top: 1.8%;
-   } */
 
 
 
 @media (max-width:768px) {
-
-   p,
-   a {
-      font-size: 1.2rem;
+   .top_text {
+      letter-spacing: normal;
    }
+
+   a {
+      font-size: 15px;
+   }
+
+
+
+
+   #home {
+      height: 60vh;
+   }
+
+   .home_content h2 {
+      font-size: 50px;
+   }
+
+   .home_content p {
+      font-size: 17px;
+   }
+
+   .top_text p {
+      font-size: 16px
+   }
+
+   .top_text h2 {
+      font-size: 45px;
+      padding-bottom: 15px;
+   }
+
+
 
    .cards_container {
       flex-direction: column;
@@ -645,25 +684,213 @@
    }
 
    .product_container>.cards_container>.card {
-      height: 450px;
-      width: 60%;
+      height: 425px;
+      width: 350px;
       margin: 10px;
 
    }
 
    .price_content>.cards_container>.card {
       height: 355px;
-      width: 60%;
+      width: 350px;
       margin: 10px;
 
    }
 
-   .price_content>.cards_container>.card>.card_content>p {
-      font-size: 22px;
+   .price_content>.cards_container>.card>.card_content>.button {
+      margin-top: 30px;
 
+   }
+
+   .promo_container>.promo_top,
+   .promo_bottom {
+      height: 500px;
+
+   }
+
+   .promo_container .card_content h2 {
+      font-size: 35px;
+   }
+
+   .promo_container .card_content p {
+      font-size: 15px;
+
+   }
+
+   .promo_container>.top_shape {
+      display: none;
+   }
+
+   .contact_container {
+      height: 60vh;
+   }
+
+   .contact_container input[type="email"] {
+      width: 50%;
+   }
+
+   .contact_container input[type="submit"] {
+      padding: 14.6px 30px;
+
+   }
+
+   .contact_container form {
+      margin-top: 15px;
+   }
+
+   .footer_container>.footer_items .other {
+      display: none;
+   }
+
+
+}
+
+@media (max-width:638px) {
+   .top_text {
+      padding: 15px 50px;
+   }
+
+   .top_text p {
+      font-size: 14px
+   }
+
+   .top_text h2 {
+      font-size: 40px;
+      padding-bottom: 10px;
+   }
+
+   .main_header nav ul li {
+      font-size: 1.5625rem;
+      padding: 0 10px;
+   }
+
+   #home {
+      height: 55vh;
    }
 }
 
-@media (max-width:470px) {}
+@media (max-width:577px) {
+   .top_text {
+      padding: 15px 25px;
+   }
 
-@media (max-width:390px) {}
+   .contact_container form {
+      height: 50px;
+      margin-top: 15px;
+      font-size: 10px;
+   }
+
+   .contact_container input[type="email"] {
+      width: 50%;
+      font-size: 20px;
+   }
+
+   .contact_container input[type="submit"] {
+      padding: 15px 25px;
+      left: -4px;
+      top: 3px
+   }
+
+}
+
+@media (max-width:527px) {
+
+
+   .top_text p {
+      padding: 0 10px;
+
+   }
+
+   .logo {
+      display: none;
+   }
+
+   #home {
+      height: 40vh;
+   }
+
+   .home_container {
+      margin-left: 3rem;
+   }
+
+   .home_content h2 {
+      font-size: 35px;
+   }
+
+   .home_content p {
+      font-size: 12px;
+   }
+
+
+
+   .promo_container>.promo_top,
+   .promo_bottom {
+      height: 400px;
+   }
+
+   .contact_container,
+   .about_top,
+   .about_bottom {
+      height: 350px;
+   }
+
+   .about_counter .count span {
+      font-size: 30px;
+   }
+
+   .about_counter .count p {
+      font-size: 15px;
+
+   }
+
+   .promo_container .card_content h2 {
+      font-size: 25px;
+   }
+
+   .promo_container .card_content p {
+      font-size: 10px;
+
+   }
+
+   .contact_container input[type="email"] {
+      width: 50%;
+      font-size: 15px;
+      height: 40px;
+   }
+
+   .contact_container input[type="submit"] {
+      padding: 9px 15px;
+      left: -4px;
+      top: 3px;
+      font-size: 20px;
+   }
+
+   .footer_container .icons>ul li a i {
+      width: 40px;
+      height: 40px;
+   }
+
+   .footer_container>.footer_items .social {
+      width: 100%;
+   }
+
+   .footer_items {
+      flex-direction: column;
+   }
+
+   footer {
+      height: auto;
+   }
+}
+
+@media (max-width:450px) {
+   .top_text p {
+      padding: 0px;
+      font-size: 12px;
+   }
+
+   .promo_container>.promo_top,
+   .promo_bottom {
+      height: 350px;
+   }
+}
