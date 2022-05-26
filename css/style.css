@@ -149,8 +149,8 @@ header {
 /*!NOTE:################### Home section ################## */
 /* !?##################+++++++++++++++##################### */
 #home {
-   /* width: 100%; */
-   height: 95vh;
+   
+   height: 750px;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: top;
@@ -534,7 +534,7 @@ header {
 /* ?##################+++++++++++++++##################### */
 footer {
    background-color: #333333;
-   height: 50vh;
+   height: 478px;
 
 }
 

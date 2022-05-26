@@ -359,7 +359,7 @@
 
    #home {
       background-position: center -30%;
-      height: 80vh;
+   
    }
 
    .home_content {
@@ -380,9 +380,7 @@
 }
 
 @media (max-width:1157px) {
-   #home {
-      height: 70vh;
-   }
+
 
    .promo_container>.top_shape {
       width: 380px;
@@ -551,7 +549,7 @@
 @media (max-width:850px) {
    #home {
       background-position: contain;
-      height: 60vh;
+
    }
 
    .home_content h2 {
@@ -625,8 +623,7 @@
 
    footer {
       background-color: #333333;
-      height: 25vh;
-
+ 
    }
 }
 
@@ -647,9 +644,7 @@
 
 
 
-   #home {
-      height: 60vh;
-   }
+  
 
    .home_content h2 {
       font-size: 50px;
